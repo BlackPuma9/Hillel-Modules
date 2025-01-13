@@ -1,6 +1,6 @@
 const path = require('path')
 
-const pathName = 'src/readme/../task2/readme.txt'
+const pathName = 'src/readme/../task2_path/readme.txt'
 
 const normalizePath = path.normalize(pathName)
 const extension = path.extname(pathName)
